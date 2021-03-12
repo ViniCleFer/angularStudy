@@ -4,7 +4,7 @@
 
 ## 💻 Project
 
-CRUD with Angluar.
+CRUD with Angular.
 
 ## :rocket: Technologies
 
@@ -61,7 +61,7 @@ $ git clone https://github.com/ViniCleFer/angularStudy.git
 $ cd crudAngular
 
 # go to frontend directory
-$ cd backend
+$ cd frontend
 
 # Install dependencies
 $ yarn install || npm install
