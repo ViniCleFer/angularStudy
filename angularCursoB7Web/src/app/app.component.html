@@ -1,0 +1,15 @@
+
+<h1>{{title}}</h1>
+
+<h3>Todo List</h3>
+
+<label for="name" style="margin-right: 10px;">Digite uma tarefa:</label>
+<input id="name" type="text" #inputName style="margin-right: 10px;">
+<button type="button" (click)="addTodo(inputName.value)">Cadastrar</button>
+
+<ul>
+  <li *ngFor="let item of todoList" [class]="{todoList: true}">
+    <p>{{item.name}}</p>
+  </li>
+</ul>
+
