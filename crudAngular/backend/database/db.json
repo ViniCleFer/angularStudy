@@ -1,11 +1,6 @@
 {
   "products": [
     {
-      "id": 2,
-      "name": "Notebook Mac Pro",
-      "price": 12000.89
-    },
-    {
       "id": 3,
       "name": "Sansung S20+",
       "price": 2000.9
@@ -14,6 +9,11 @@
       "name": "Moto",
       "price": 4000,
       "id": 4
+    },
+    {
+      "name": "Macbook Pro",
+      "price": 15000,
+      "id": 5
     }
   ]
 }

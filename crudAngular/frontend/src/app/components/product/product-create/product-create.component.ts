@@ -26,8 +26,6 @@ export class ProductCreateComponent implements OnInit {
 
       this.router.navigate(['/products'])
     })
-
-
   }
 
   cancel(): void {

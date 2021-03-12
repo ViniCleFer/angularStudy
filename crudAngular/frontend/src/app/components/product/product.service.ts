@@ -17,7 +17,7 @@ export class ProductService {
 
   showMessage(msg: string, isError: boolean = false): void {
     this.snackBar.open(msg, '', {
-      duration: 3000,
+      duration: 10000,
       horizontalPosition: 'right',
       verticalPosition: 'top',
       panelClass: isError ? ['msg-error'] : ['msg-success']
